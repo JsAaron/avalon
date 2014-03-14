@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ms-if</title>
+    <script src="core.js"></script>
+    <script src="modelFactory.js"></script>
+    <script src="dom.js"></script>
+    <script src="val.js"></script>
+    <script src="parseHTML.js"></script>
+    <script src="Observable.js"></script>
+    <script src="scan.js"></script>
+    <script src="avalon.mobile.js"></script>
+</head>
+<body ms-controller="Test">
+
+<ul ms-each-item="array">
+    <li ms-click="$remove" ms-if="$index % 2 == 0">{{ item }} --- {{$index}}</li>
+</ul>
+
+
+<script type="text/javascript">
+
+    avalon.define('Test', function(vm) {
+        vm.array = "a,b,c,d,e,f,g".split(",")
+    });
+
+</script>
+</body>
+</html>
