@@ -54,7 +54,7 @@
     // implementations are spec-compliant. Based on work by Ken Snyder.
     function has(name) {
       if (has[name] !== undef) {
-        // Return cached feature test result.
+        // Return cached feature src result.
         return has[name];
       }
       var isSupported;
@@ -72,7 +72,7 @@
         if (name == "json-stringify") {
           var stringify = exports.stringify, stringifySupported = typeof stringify == "function" && isExtended;
           if (stringifySupported) {
-            // A test function object with a custom `toJSON` method.
+            // A src function object with a custom `toJSON` method.
             (value = function () {
               return 1;
             }).toJSON = value;
@@ -91,7 +91,7 @@
                 // within an object or array).
                 stringify(getClass) === undef &&
                 // IE 8 serializes `undefined` as `"undefined"`. Safari <= 5.1.7 and
-                // FF 3.1b3 pass this test.
+                // FF 3.1b3 pass this src.
                 stringify(undef) === undef &&
                 // Safari <= 5.1.7 and FF 3.1b3 throw `Error`s and `TypeError`s,
                 // respectively, if the value is omitted entirely.
@@ -113,7 +113,7 @@
                 // elides non-JSON values from objects and arrays, unless they
                 // define custom `toJSON` methods.
                 stringify([undef, getClass, null]) == "[null,null,null]" &&
-                // Simple serialization test. FF 3.1b1 uses Unicode escape sequences
+                // Simple serialization src. FF 3.1b1 uses Unicode escape sequences
                 // where character escape codes are expected (e.g., `\b` => `\u0008`).
                 stringify({ "a": [value, true, false, null, "\x00\b\n\f\r\t"] }) == serialized &&
                 // FF 3.1b1 and b2 ignore the `filter` and `width` arguments.
@@ -145,7 +145,7 @@
               // Conforming implementations should also coerce the initial argument to
               // a string prior to parsing.
               if (parse("0") === 0 && !parse(false)) {
-                // Simple parsing test.
+                // Simple parsing src.
                 value = parse(serialized);
                 var parseSupported = value["a"].length == 5 && value["a"][0] === 1;
                 if (parseSupported) {

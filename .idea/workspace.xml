@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e271e36-08f3-4305-8b7c-a18310fd109a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Observable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/avalon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/avalon.mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/modelFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/scan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\Observable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\avalon.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\avalon.mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\core.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\dom.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\modelFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\scan.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\aaron\avalon\test\val.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalon-master/fastclick.js" afterPath="$PROJECT_DIR$/avalon-master/fastclick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalon-master/json3.js" afterPath="$PROJECT_DIR$/avalon-master/json3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalon-master/knockout.js" afterPath="$PROJECT_DIR$/avalon-master/knockout.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\Observable.js" afterPath="$PROJECT_DIR$/src/Observable.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\avalon.js" afterPath="$PROJECT_DIR$/src/avalon.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\avalon.mobile.js" afterPath="$PROJECT_DIR$/src/avalon.mobile.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\core.js" afterPath="$PROJECT_DIR$/src/core.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\dom.js" afterPath="$PROJECT_DIR$/src/dom.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\modelFactory.js" afterPath="$PROJECT_DIR$/src/modelFactory.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\parseHTML.js" afterPath="$PROJECT_DIR$/src/parseHTML.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\scan.js" afterPath="$PROJECT_DIR$/src/scan.js" />
+      <change type="MOVED" beforePath="D:\source\aaron\avalon\test\val.js" afterPath="$PROJECT_DIR$/src/val.js" />
     </list>
     <ignored path="avalon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +48,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="avalon.mobile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/avalon.mobile.js">
+        <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="168" selection-end="240" vertical-scroll-proportion="0.08759124" vertical-offset="0" max-vertical-offset="43020">
               <folding>
@@ -47,7 +59,7 @@
         </entry>
       </file>
       <file leaf-file-name="scan.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/scan.js">
+        <entry file="file://$PROJECT_DIR$/src/scan.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="289" column="3" selection-start="9360" selection-end="9360" vertical-scroll-proportion="0.0" vertical-offset="5122" max-vertical-offset="5900">
               <folding />
@@ -56,16 +68,32 @@
         </entry>
       </file>
       <file leaf-file-name="Observable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Observable.js">
+        <entry file="file://$PROJECT_DIR$/src/Observable.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="47" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1060">
-              <folding />
+              <folding>
+                <marker date="1394785938635" expanded="true" signature="235:1619" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="274:643" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="320:531" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="396:452" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="458:521" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="537:617" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="684:1209" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="740:848" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="867:914" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="920:1183" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="1041:1173" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="1090:1159" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="1237:1617" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="1448:1498" placeholder="{...}" />
+                <marker date="1394785938635" expanded="true" signature="1556:1611" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="parseHTML.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/parseHTML.js">
+        <entry file="file://$PROJECT_DIR$/src/parseHTML.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="77" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="1660">
               <folding />
@@ -74,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="val.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/val.js">
+        <entry file="file://$PROJECT_DIR$/src/val.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="43" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="980">
               <folding />
@@ -83,7 +111,7 @@
         </entry>
       </file>
       <file leaf-file-name="dom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/dom.js">
+        <entry file="file://$PROJECT_DIR$/src/dom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="434" column="2" selection-start="14122" selection-end="14122" vertical-scroll-proportion="0.0" vertical-offset="7713" max-vertical-offset="8800">
               <folding />
@@ -92,7 +120,7 @@
         </entry>
       </file>
       <file leaf-file-name="modelFactory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/modelFactory.js">
+        <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="254" column="0" selection-start="8766" selection-end="8766" vertical-scroll-proportion="0.0" vertical-offset="4400" max-vertical-offset="5200">
               <folding />
@@ -101,7 +129,7 @@
         </entry>
       </file>
       <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/core.js">
+        <entry file="file://$PROJECT_DIR$/src/core.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="296" column="51" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="2457" max-vertical-offset="6200">
               <folding />
@@ -110,7 +138,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/index.html">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="11" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.3793104" vertical-offset="31" max-vertical-offset="700">
               <folding />
@@ -194,10 +222,6 @@
               <option name="myItemId" value="avalon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -206,6 +230,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="avalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,6 +332,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13733906" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1423462" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -313,7 +342,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -347,7 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/avalon.js">
+    <entry file="file://$PROJECT_DIR$/src/avalon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="675" column="16" selection-start="24408" selection-end="24408" vertical-scroll-proportion="-0.35479453" vertical-offset="12679" max-vertical-offset="80160">
           <folding>
@@ -357,63 +385,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/core.js">
+    <entry file="file://$PROJECT_DIR$/src/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="296" column="51" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0" vertical-offset="2457" max-vertical-offset="6200">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/modelFactory.js">
+    <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="254" column="0" selection-start="8766" selection-end="8766" vertical-scroll-proportion="0.0" vertical-offset="4400" max-vertical-offset="5200">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/dom.js">
+    <entry file="file://$PROJECT_DIR$/src/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="434" column="2" selection-start="14122" selection-end="14122" vertical-scroll-proportion="0.0" vertical-offset="7713" max-vertical-offset="8800">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/parseHTML.js">
+    <entry file="file://$PROJECT_DIR$/src/parseHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="1660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Observable.js">
+    <entry file="file://$PROJECT_DIR$/src/Observable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1060">
-          <folding />
+          <folding>
+            <marker date="1394785938635" expanded="true" signature="235:1619" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="274:643" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="320:531" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="396:452" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="458:521" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="537:617" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="684:1209" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="740:848" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="867:914" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="920:1183" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="1041:1173" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="1090:1159" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="1237:1617" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="1448:1498" placeholder="{...}" />
+            <marker date="1394785938635" expanded="true" signature="1556:1611" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/val.js">
+    <entry file="file://$PROJECT_DIR$/src/val.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="980">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/scan.js">
+    <entry file="file://$PROJECT_DIR$/src/scan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="289" column="3" selection-start="9360" selection-end="9360" vertical-scroll-proportion="0.0" vertical-offset="5122" max-vertical-offset="5900">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.html">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="11" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.3793104" vertical-offset="31" max-vertical-offset="700">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/avalon.mobile.js">
+    <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="168" selection-end="240" vertical-scroll-proportion="0.08759124" vertical-offset="0" max-vertical-offset="43020">
           <folding>
