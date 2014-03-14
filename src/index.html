@@ -13,19 +13,35 @@
     <script src="parseExprProxy.js"></script>
     <script src="bindingHandlers.js"></script>
     <script src="avalon.mobile.js"></script>
+    <script src="demo.js"></script>
 </head>
-<body ms-controller="Test">
+<body>
 
-<ul ms-each-item="array">
-    <li ms-click="$remove" ms-if="$index % 2 == 0">{{ item }} --- {{$index}}</li>
-</ul>
-
+<div ms-controller="box">
+    <div style=" background: #a9ea00;" ms-css-width="w" ms-css-height="h"  ms-click="click"></div>
+    <p>{{ w }} x {{ h }}</p>
+    <p>W: <input type="text" ms-duplex="w" data-duplex-event="change"/></p>
+    <p>H: <input type="text" ms-duplex="h" /></p>
+</div>
 
 <script type="text/javascript">
 
-    avalon.define('Test', function(vm) {
-        vm.array = "a,b,c,d,e,f,g".split(",")
-    });
+       avalon.define('box',function(vm){
+
+           vm.w = 100
+           vm.h = 100
+
+           vm.click = function(e){
+               console.log(vm,e)
+           }
+
+           console.log(vm)
+
+
+
+       })
+
+
 
 </script>
 </body>
