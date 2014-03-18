@@ -52,7 +52,8 @@ function modelFactory(scope, model) {
     for (var i in scope) {
         loopModel(i, scope[i], model, normalProperties, accessingProperties, computedProperties, watchProperties)
     }
-    vmodel = Object.defineProperties(vmodel, descriptorFactory(accessingProperties)) //生成一个空的ViewModel
+    var a = descriptorFactory(accessingProperties)
+    vmodel = Object.defineProperties(vmodel, a) //生成一个空的ViewModel
     for (var name in normalProperties) {
         vmodel[name] = normalProperties[name]
     }
@@ -162,6 +163,7 @@ function loopModel(name, val, model, normalProperties, accessingProperties, comp
         computedProperties.push(accessor)
     } else {
         accessor = function(newValue) { //创建监控属性或数组，自变量，由用户触发其改变
+
             var vmodel = watchProperties.vmodel
             var preValue = model[name],
                 simpleType
@@ -200,7 +202,7 @@ function loopModel(name, val, model, normalProperties, accessingProperties, comp
             accessor[subscribers] = complexValue[subscribers]
             model[name] = complexValue.$model
         } else {
-            model[name] = val
+                model[name] = val
         }
     }
     accessingProperties[name] = accessor

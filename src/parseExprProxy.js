@@ -12,6 +12,7 @@ var keywords =
         + ",arguments,let,yield"
 
         + ",undefined"
+
 var rrexpstr = /\/\*(?:.|\n)*?\*\/|\/\/[^\n]*\n|\/\/[^\n]*$|'[^']*'|"[^"]*"|[\s\t\n]*\.[\s\t\n]*[$\w\.]+/g
 var rsplit = /[^\w$]+/g
 var rkeywords = new RegExp(["\\b" + keywords.replace(/,/g, '\\b|\\b') + "\\b"].join('|'), 'g')
@@ -27,8 +28,8 @@ var getVariables = function(code) {
 
     return code ? code.split(/,+/) : []
 }
-//添加赋值语句
 
+//添加赋值语句
 function addAssign(vars, scope, name, duplex) {
     var ret = [],
         prefix = " = " + name + "."
@@ -42,7 +43,6 @@ function addAssign(vars, scope, name, duplex) {
         }
     }
     return ret
-
 }
 
 function uniqArray(arr, vm) {
@@ -64,10 +64,8 @@ function uniqArray(arr, vm) {
 }
 
 //缓存求值函数，以便多次利用
-
 function createCache(maxLength) {
     var keys = []
-
     function cache(key, value) {
         if (keys.push(key) > maxLength) {
             delete cache[keys.shift()]
@@ -76,9 +74,13 @@ function createCache(maxLength) {
     }
     return cache;
 }
+
 var cacheExpr = createCache(256)
+
 //根据一段文本与一堆VM，转换为对应的求值函数及匹配的VM(解释器模式)
 var rduplex = /\w\[.*\]|\w\.\w/
+
+
 function parseExpr(code, scopes, data, four) {
     var exprId = scopes.map(function(el) {
         return el.$id
@@ -129,6 +131,7 @@ function parseExpr(code, scopes, data, four) {
         }
         return
     }
+
     //------------------on----------------
     if (data.type === "on") {
         if (code.indexOf(".bind(") === -1) {
@@ -140,6 +143,7 @@ function parseExpr(code, scopes, data, four) {
             names.push(four)
         }
     }
+
     //---------------filter----------------
     if (data.filters) {
         code = "\nvar ret" + expose + " = " + code
@@ -164,12 +168,14 @@ function parseExpr(code, scopes, data, four) {
     } else {
         code = "\nreturn " + code + ";" //IE全家 Function("return ")出错，需要Function("return ;")
     }
+
     if (data.type === "on") {
         var lastIndex = code.lastIndexOf("\nreturn")
         var header = code.slice(0, lastIndex)
         var footer = code.slice(lastIndex)
         code = header + "\nif(avalon.openComputedCollect) return ;" + footer
     }
+
     //---------------other----------------
     try {
         fn = Function.apply(Function, names.concat("'use strict';\n" + prefix + code))

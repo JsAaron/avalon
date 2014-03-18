@@ -36,6 +36,7 @@ var getBindingCallback = function(elem, name, vmodels) {
 }
 var includeContents = {}
 var ifSanctuary = DOC.createElement("div")
+
 //这里的函数每当VM发生改变后，都会被执行（操作方为notifySubscribers）
 var bindingExecutors = avalon.bindingExecutors = {
     "attr": function(val, elem, data) {
@@ -361,6 +362,9 @@ var bindingExecutors = avalon.bindingExecutors = {
     },
     "widget": noop
 }
+
+
+
 //这里的函数只会在第一次被扫描后被执行一次，并放进行对应VM属性的subscribers数组内（操作方为registerSubscriber）
 var bindingHandlers = avalon.bindingHandlers = {
     //这是一个字符串属性绑定的范本, 方便你在title, alt,  src, href, include, css添加插值表达式

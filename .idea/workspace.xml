@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="4e271e36-08f3-4305-8b7c-a18310fd109a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bindingHandlers.js" afterPath="$PROJECT_DIR$/src/bindingHandlers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modelFactory.js" afterPath="$PROJECT_DIR$/src/modelFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parseExprProxy.js" afterPath="$PROJECT_DIR$/src/parseExprProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scan.js" afterPath="$PROJECT_DIR$/src/scan.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-=======
-    <list default="true" id="4e271e36-08f3-4305-8b7c-a18310fd109a" name="Default" comment="" />
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
     <ignored path="avalon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,40 +30,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="8" column="19" selection-start="263" selection-end="263" vertical-scroll-proportion="0.23088023" vertical-offset="0" max-vertical-offset="880">
+            <state line="20" column="11" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.448276" vertical-offset="126" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modelFactory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="37" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="5240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bindingHandlers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="624" column="20" selection-start="24311" selection-end="24315" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="15500">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1627#14121#0" expanded="false" />
+                <element signature="e#14412#14926#0" expanded="false" />
+                <element signature="e#15090#16501#0" expanded="false" />
+                <element signature="e#16676#17302#0" expanded="false" />
+                <element signature="e#17340#20472#0" expanded="false" />
+                <element signature="e#20510#20567#0" expanded="false" />
+                <element signature="e#20603#20914#0" expanded="false" />
+                <element signature="e#20950#21519#0" expanded="false" />
+                <element signature="e#21560#21923#0" expanded="false" />
+                <element signature="e#21963#23799#0" expanded="false" />
+                <element signature="e#24929#27878#0" expanded="false" />
+                <element signature="e#29047#30194#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dom.js">
+      <file leaf-file-name="parseExprProxy.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="434" column="2" selection-start="14120" selection-end="14122" vertical-scroll-proportion="0.0" vertical-offset="8091" max-vertical-offset="8800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="val.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/val.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scan.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scan.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="3" selection-start="9357" selection-end="9360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5900">
+            <state line="94" column="45" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.65753424" vertical-offset="1400" max-vertical-offset="4540">
               <folding />
             </state>
           </provider>
@@ -73,50 +82,29 @@
       <file leaf-file-name="avalon.mobile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="486" column="16" selection-start="19365" selection-end="19370" vertical-scroll-proportion="0.0" vertical-offset="9371" max-vertical-offset="10140">
-              <folding />
-=======
-            <state line="33" column="34" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.60784316" vertical-offset="226" max-vertical-offset="1060">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="modelFactory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="37" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="5200">
-=======
-      <file leaf-file-name="index_$skipArray.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avalon-master/index_$skipArray.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="686" selection-end="692" vertical-scroll-proportion="-16.551723" vertical-offset="0" max-vertical-offset="720">
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+            <state line="499" column="19" selection-start="19857" selection-end="19857" vertical-scroll-proportion="0.0" vertical-offset="8711" max-vertical-offset="10140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core.js">
+      <file leaf-file-name="scan.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="301" column="2" selection-start="9129" selection-end="9129" vertical-scroll-proportion="0.0" vertical-offset="4418" max-vertical-offset="5140">
+            <state line="224" column="19" selection-start="7577" selection-end="7592" vertical-scroll-proportion="0.0" vertical-offset="3266" max-vertical-offset="5060">
               <folding>
-                <element signature="e#2014#3462#0" expanded="false" />
-=======
-      <file leaf-file-name="index_class.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avalon-master/index_class.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="1" selection-start="1195" selection-end="1769" vertical-scroll-proportion="-14.275862" vertical-offset="506" max-vertical-offset="1580">
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+                <element signature="n#!!block;n#checkScan#0" expanded="false" />
+                <element signature="n#!!block;n#scanText#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="26" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8800">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,19 +122,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/dom.js" />
-        <option value="$PROJECT_DIR$/test/val.js" />
         <option value="$PROJECT_DIR$/test/parseHTML.js" />
         <option value="$PROJECT_DIR$/test/Observable.js" />
         <option value="$PROJECT_DIR$/test/avalon.mobile.js" />
         <option value="$PROJECT_DIR$/test/scan.js" />
         <option value="$PROJECT_DIR$/test/index.html" />
-        <option value="$PROJECT_DIR$/src/parseExprProxy.js" />
         <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
-        <option value="$PROJECT_DIR$/src/bindingHandlers.js" />
-        <option value="$PROJECT_DIR$/src/demo.js" />
-        <option value="$PROJECT_DIR$/avalon-master/index_class.html" />
+        <option value="$PROJECT_DIR$/src/modelFactory.js" />
+        <option value="$PROJECT_DIR$/src/scan.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/bindingHandlers.js" />
+        <option value="$PROJECT_DIR$/src/parseExprProxy.js" />
       </list>
     </option>
   </component>
@@ -172,16 +158,17 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,23 +201,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avalon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avalon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avalon-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,6 +221,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -259,23 +239,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -318,21 +290,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13733906" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14377682" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13680555" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14166667" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13333334" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14583333" sideWeight="0.67086834" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32797858" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -340,10 +307,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -381,169 +347,91 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/parseHTML.js">
-=======
+    <entry file="file://$PROJECT_DIR$/avalon-master/index_duplex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.965517" vertical-offset="289" max-vertical-offset="960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avalon-master/index_position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.413794" vertical-offset="360" max-vertical-offset="1940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avalon-master/index_with4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.413794" vertical-offset="360" max-vertical-offset="1400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avalon-master/index_with5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.62069" vertical-offset="540" max-vertical-offset="1240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="740">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="168" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="10180">
+        <state line="20" column="11" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.448276" vertical-offset="126" max-vertical-offset="840">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1429" column="0" selection-start="50846" selection-end="50846" vertical-scroll-proportion="0.0" vertical-offset="27900" max-vertical-offset="28700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="6923" selection-end="6923" vertical-scroll-proportion="0.0" vertical-offset="3620" max-vertical-offset="4420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core.js">
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="1660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1429" column="0" selection-start="50846" selection-end="50846" vertical-scroll-proportion="0.0" vertical-offset="27900" max-vertical-offset="28700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="9" selection-start="6454" selection-end="6454" vertical-scroll-proportion="2.602546" vertical-offset="2120" max-vertical-offset="4420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="301" column="2" selection-start="9129" selection-end="9129" vertical-scroll-proportion="0.0" vertical-offset="4418" max-vertical-offset="5140">
-          <folding>
-            <element signature="e#2014#3462#0" expanded="false" />
-          </folding>
-=======
-        <state line="47" column="0" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1060">
-          <folding />
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="37" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="5200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="2" selection-start="14120" selection-end="14122" vertical-scroll-proportion="0.0" vertical-offset="8091" max-vertical-offset="8800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/val.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/scan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="3" selection-start="9357" selection-end="9360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5900">
-=======
-    <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1429" column="0" selection-start="50846" selection-end="50846" vertical-scroll-proportion="0.0" vertical-offset="27900" max-vertical-offset="28700">
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+        <state line="24" column="37" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="5240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="486" column="16" selection-start="19365" selection-end="19370" vertical-scroll-proportion="0.0" vertical-offset="9371" max-vertical-offset="10140">
-=======
-        <state line="3" column="0" selection-start="168" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10180">
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+        <state line="499" column="19" selection-start="19857" selection-end="19857" vertical-scroll-proportion="0.0" vertical-offset="8711" max-vertical-offset="10140">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/scan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="263" selection-end="263" vertical-scroll-proportion="0.23088023" vertical-offset="0" max-vertical-offset="880">
+        <state line="224" column="19" selection-start="7577" selection-end="7592" vertical-scroll-proportion="0.0" vertical-offset="3266" max-vertical-offset="5060">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="19" selection-start="6842" selection-end="6842" vertical-scroll-proportion="0.0" vertical-offset="2850" max-vertical-offset="4420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="743">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalon-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.4507847" vertical-offset="3120" max-vertical-offset="31040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalon-master/index_$skipArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="686" selection-end="692" vertical-scroll-proportion="-16.551723" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avalon-master/index_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="1" selection-start="1195" selection-end="1769" vertical-scroll-proportion="-14.275862" vertical-offset="506" max-vertical-offset="1580">
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
+            <element signature="n#!!block;n#checkScan#0" expanded="false" />
+            <element signature="n#!!block;n#scanText#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="624" column="20" selection-start="24311" selection-end="24315" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="15500">
+          <folding>
+            <element signature="e#1627#14121#0" expanded="false" />
+            <element signature="e#14412#14926#0" expanded="false" />
+            <element signature="e#15090#16501#0" expanded="false" />
+            <element signature="e#16676#17302#0" expanded="false" />
+            <element signature="e#17340#20472#0" expanded="false" />
+            <element signature="e#20510#20567#0" expanded="false" />
+            <element signature="e#20603#20914#0" expanded="false" />
+            <element signature="e#20950#21519#0" expanded="false" />
+            <element signature="e#21560#21923#0" expanded="false" />
+            <element signature="e#21963#23799#0" expanded="false" />
+            <element signature="e#24929#27878#0" expanded="false" />
+            <element signature="e#29047#30194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="45" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.65753424" vertical-offset="1400" max-vertical-offset="4540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -559,17 +447,6 @@
         </settings>
       </state>
     </states>
-=======
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.60784316" vertical-offset="226" max-vertical-offset="1060">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> 47b942dd92cac0b92140c483a1eebc5d8597e496
   </component>
 </project>
 
