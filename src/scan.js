@@ -153,17 +153,18 @@ var priorityMap = {
     "duplex": 2000
 }
 
+
 function scanAttr(elem, vmodels) {
     var attributes = elem.attributes
     var bindings = [], msData = {},
         match
     for (var i = 0, attr; attr = attributes[i++]; ) {
-        if (attr.specified) {
+        if (attr.specified) { //特性
             if (match = attr.name.match(rmsAttr)) {
                 //如果是以指定前缀命名的
                 var type = match[1]
                 msData[attr.name] = attr.value
-                if (typeof bindingHandlers[type] === "function") {
+                if (typeof bindingHandlers[type] === "function") {//必须有对应的处理器
                     var param = match[2] || ""
                     var binding = {
                         type: type,
@@ -171,6 +172,7 @@ function scanAttr(elem, vmodels) {
                         element: elem,
                         name: match[0],
                         value: attr.value,
+                        //权重
                         priority: type in priorityMap ? priorityMap[type] : type.charCodeAt(0) * 10 + (Number(param) || 0)
                     }
                     if (type === "if" && param === "loop") {
@@ -189,6 +191,7 @@ function scanAttr(elem, vmodels) {
     if (msData["ms-checked"] && msData["ms-duplex"]) {
         avalon.log("warning!一个元素上不能同时定义ms-checked与ms-duplex")
     }
+    //权重排序
     bindings.sort(function(a, b) {
         return a.priority - b.priority
     })

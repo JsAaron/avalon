@@ -12,25 +12,21 @@
     <script src="scan.js"></script>
     <script src="parseExprProxy.js"></script>
     <script src="bindingHandlers.js"></script>
-    <script src="avalon.mobile.js"></script>
+    <script src="loader.js"></script>
     <script src="demo.js"></script>
 </head>
 <body>
 
 <div ms-controller="box">
+    <div style=" background: #a9ea00;width:100px;height:100px;" ms-css-width="w"  ms-click="click"></div>
     <p>{{ w }}</p>
 </div>
 
+
+
 <script type="text/javascript">
 
-    avalon.define("box", function(vm) {
-        vm.w = 100;
-//        vm.h = 100;
-//        vm.click = function() {
-//            vm.w = parseFloat(vm.w) + 10;
-//            vm.h = parseFloat(vm.h) + 10;
-//        }
-    })
+
 
 </script>
 </body>
