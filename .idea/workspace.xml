@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c48ae644-7487-4bee-9cea-0c04393c2915" name="Default" comment="test&#10;">
-      <change type="DELETED" beforePath="D:\source\aaron\avalon\.idea\dictionaries\Administrator.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/avalon.mobile.js" afterPath="$PROJECT_DIR$/src/avalon.mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo.js" afterPath="$PROJECT_DIR$/src/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scan.js" afterPath="$PROJECT_DIR$/src/scan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c48ae644-7487-4bee-9cea-0c04393c2915" name="Default" comment="test&#10;" />
     <ignored path="avalon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="741" selection-end="786" vertical-scroll-proportion="-17.241379" vertical-offset="0" max-vertical-offset="760">
+            <state line="21" column="90" selection-start="830" selection-end="835" vertical-scroll-proportion="-12.896552" vertical-offset="46" max-vertical-offset="780">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,40 +37,18 @@
       <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="2" column="11" selection-start="13" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avalon.mobile.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="avalon.mobile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="5220" max-vertical-offset="71300">
+            <state line="479" column="19" selection-start="16897" selection-end="16897" vertical-scroll-proportion="0.32956153" vertical-offset="9307" max-vertical-offset="67320">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#2412#4044#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modelFactory.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="25" selection-start="2027" selection-end="2049" vertical-scroll-proportion="0.4905914" vertical-offset="835" max-vertical-offset="5240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scan.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scan.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="46" selection-start="7722" selection-end="7722" vertical-scroll-proportion="0.0" vertical-offset="3185" max-vertical-offset="5120">
-              <folding>
-                <element signature="n#!!block;n#checkScan#0" expanded="false" />
-                <element signature="n#!!block;n#scanText#0" expanded="false" />
+                <element signature="e#76450#87496#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,12 +67,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/modelFactory.js" />
         <option value="$PROJECT_DIR$/src/scan.js" />
         <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/bindingHandlers.js" />
-        <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
+        <option value="$PROJECT_DIR$/src/modelFactory.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/avalon-master/avalon.mobile.js" />
+        <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
       </list>
     </option>
   </component>
@@ -137,7 +109,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,11 +143,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -187,14 +159,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -205,15 +169,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -227,6 +199,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED_FROM_OBJECT" />
   </component>
@@ -256,26 +229,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19027779" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14097223" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19599427" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14520743" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34002677" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -294,9 +267,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="test&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="741" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="840">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="10180">
+          <folding>
+            <element signature="e#76450#87496#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="25" selection-start="2027" selection-end="2049" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="9" selection-start="7843" selection-end="7843" vertical-scroll-proportion="0.0" vertical-offset="4560" max-vertical-offset="5880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="17" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.33333334" vertical-offset="1679" max-vertical-offset="18740">
@@ -306,9 +320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parseExprProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="29" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="4540">
-          <folding />
-        </state>
+        <state line="47" column="29" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="4540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bindingHandlers.js">
@@ -339,46 +351,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="9" selection-start="7900" selection-end="7900" vertical-scroll-proportion="0.0" vertical-offset="4620" max-vertical-offset="5940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="275" selection-end="275" vertical-scroll-proportion="0.13458951" vertical-offset="0" max-vertical-offset="5240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="741" selection-end="786" vertical-scroll-proportion="-17.241379" vertical-offset="0" max-vertical-offset="760">
+        <state line="21" column="90" selection-start="830" selection-end="835" vertical-scroll-proportion="-12.896552" vertical-offset="46" max-vertical-offset="780">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo.js">
+    <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="313" column="11" selection-start="10822" selection-end="10822" vertical-scroll-proportion="0.3328767" vertical-offset="5977" max-vertical-offset="71920">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scan.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="46" selection-start="7722" selection-end="7722" vertical-scroll-proportion="0.0" vertical-offset="3185" max-vertical-offset="5120">
-          <folding>
-            <element signature="n#!!block;n#checkScan#0" expanded="false" />
-            <element signature="n#!!block;n#scanText#0" expanded="false" />
-          </folding>
+        <state line="159" column="19" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.33333334" vertical-offset="2940" max-vertical-offset="3820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="13" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="5220" max-vertical-offset="71300">
+        <state line="479" column="19" selection-start="16897" selection-end="16897" vertical-scroll-proportion="0.32956153" vertical-offset="9307" max-vertical-offset="67320">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2412#4044#0" expanded="false" />
+            <element signature="e#76450#87496#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="25" selection-start="2027" selection-end="2049" vertical-scroll-proportion="0.4905914" vertical-offset="835" max-vertical-offset="5240">
-          <folding />
         </state>
       </provider>
     </entry>

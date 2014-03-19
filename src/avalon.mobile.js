@@ -359,6 +359,7 @@
         for (var name in normalProperties) {
             vmodel[name] = normalProperties[name]
         }
+
         watchProperties.vmodel = vmodel
         vmodel.$model = model
         vmodel.$events = {}
@@ -417,6 +418,7 @@
     }
 
     function loopModel(name, val, model, normalProperties, accessingProperties, computedProperties, watchProperties) {
+
         model[name] = val
         if (normalProperties[name] || (val && val.nodeType)) { //如果是指明不用监控的系统属性或元素节点，或放到 $skipArray里面
             return normalProperties[name] = val
