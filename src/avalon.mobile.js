@@ -1527,7 +1527,7 @@
             return el.$id.replace(rproxy, "$1")
         }) + code + dataType + filters
         var vars = getVariables(code),
-            assigns = [],
+            assigns = [],s
             names = [],
             args = [],
             prefix = ""
@@ -1605,6 +1605,9 @@
         try {
             fn = Function.apply(noop, names.concat("'use strict';\n" + prefix + code))
             if (data.type !== "on") {
+                //fn用来判定这个方法有没有出错
+                //比较是编译而成,可以里面的逻辑不对
+                //会抛错
                 fn.apply(fn, args)
             }
             data.evaluator = cacheExpr(exprId, fn)
