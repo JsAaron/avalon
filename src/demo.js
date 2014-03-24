@@ -8,7 +8,7 @@ var a = avalon.define("box", function(vm) {
     }
 })
 
-
-setTimeout(function(){
-    console.log(a)
-},1000)
+//
+//setTimeout(function(){
+//    console.log(a)
+//},1000)

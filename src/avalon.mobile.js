@@ -1430,6 +1430,7 @@
             }
             start = stop + closeTag.length
         } while (1)
+
         value = str.slice(start)
         if (value) { //}} 右边的文本
             tokens.push({

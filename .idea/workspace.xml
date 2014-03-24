@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c48ae644-7487-4bee-9cea-0c04393c2915" name="Default" comment="test&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/avalon.js" afterPath="$PROJECT_DIR$/src/avalon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalon-master/avalon.mobile.js" afterPath="$PROJECT_DIR$/avalon-master/avalon.mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/avalon.mobile.js" afterPath="$PROJECT_DIR$/src/avalon.mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avalon-master/index_each.html" afterPath="$PROJECT_DIR$/avalon-master/index_each.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c48ae644-7487-4bee-9cea-0c04393c2915" name="Default" comment="test&#10;" />
     <ignored path="avalon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,26 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="514" selection-end="514" vertical-scroll-proportion="-7.034483" vertical-offset="36" max-vertical-offset="780">
-              <folding />
+            <state line="24" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.6722689" vertical-offset="0" max-vertical-offset="780">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avalon.mobile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
+      <file leaf-file-name="avalon.mobile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1073" column="9" selection-start="39413" selection-end="39413" vertical-scroll-proportion="-4.154583" vertical-offset="18557" max-vertical-offset="65180">
+            <state line="1431" column="19" selection-start="52374" selection-end="52374" vertical-scroll-proportion="0.0" vertical-offset="23537" max-vertical-offset="68060">
               <folding>
-                <element signature="e#14376#18837#0" expanded="false" />
-                <element signature="e#19153#20304#0" expanded="false" />
-                <element signature="e#21277#22821#0" expanded="false" />
-                <element signature="e#23676#28481#0" expanded="false" />
-                <element signature="e#45338#45716#0" expanded="false" />
-                <element signature="e#47219#48458#0" expanded="false" />
+                <element signature="e#2412#4044#0" expanded="false" />
+                <element signature="e#4777#9123#0" expanded="false" />
+                <element signature="e#40961#42517#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,7 +50,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+            <state line="10" column="0" selection-start="162" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
               <folding />
             </state>
           </provider>
@@ -79,12 +72,12 @@
         <option value="$PROJECT_DIR$/src/scan.js" />
         <option value="$PROJECT_DIR$/src/bindingHandlers.js" />
         <option value="$PROJECT_DIR$/src/modelFactory.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/demo.js" />
-        <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
         <option value="$PROJECT_DIR$/avalon-master/index_$skipArray.html" />
         <option value="$PROJECT_DIR$/avalon-master/index_each.html" />
         <option value="$PROJECT_DIR$/avalon-master/avalon.mobile.js" />
+        <option value="$PROJECT_DIR$/src/demo.js" />
+        <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -120,7 +113,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,6 +147,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,14 +164,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -189,15 +174,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -241,14 +234,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430556" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11180556" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34002677" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -256,11 +249,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -284,44 +277,52 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/avalon-master/index_each.html">
+    <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="22" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="2340">
+        <state line="1073" column="9" selection-start="39413" selection-end="39413" vertical-scroll-proportion="0.0" vertical-offset="21460" max-vertical-offset="67940">
+          <folding>
+            <element signature="e#19153#20304#0" expanded="false" />
+            <element signature="e#23676#28481#0" expanded="false" />
+            <element signature="e#51832#53390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1020">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avalon-master/index_each.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="22" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="2340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1314" column="5" selection-start="48632" selection-end="48632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="65180">
           <folding>
-            <element signature="e#14376#18837#0" expanded="false" />
             <element signature="e#19153#20304#0" expanded="false" />
-            <element signature="e#21277#22821#0" expanded="false" />
             <element signature="e#23676#28481#0" expanded="false" />
-            <element signature="e#45338#45716#0" expanded="false" />
-            <element signature="e#47219#48458#0" expanded="false" />
+            <element signature="e#51832#53390#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avalon-master/index_each.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1500">
-          <folding />
-        </state>
+        <state line="27" column="40" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1500" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="506" column="24" selection-start="18615" selection-end="18615" vertical-scroll-proportion="0.0" vertical-offset="10120" max-vertical-offset="71960">
           <folding>
-            <element signature="e#14376#18837#0" expanded="false" />
             <element signature="e#19153#20304#0" expanded="false" />
-            <element signature="e#21277#22821#0" expanded="false" />
             <element signature="e#23676#28481#0" expanded="false" />
-            <element signature="e#45338#45716#0" expanded="false" />
-            <element signature="e#47219#48458#0" expanded="false" />
+            <element signature="e#51832#53390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -503,17 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="20" selection-start="4168" selection-end="4168" vertical-scroll-proportion="0.0" vertical-offset="1220" max-vertical-offset="68040">
-          <folding>
-            <element signature="e#2412#4044#0" expanded="false" />
-            <element signature="e#4777#9123#0" expanded="false" />
-            <element signature="e#40961#42517#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/avalon-master/index_$skipArray.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="286" selection-end="296" vertical-scroll-proportion="-7.586207" vertical-offset="0" max-vertical-offset="720" />
@@ -586,35 +576,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avalon-master/index_each.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="22" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.17094018" vertical-offset="700" max-vertical-offset="2340">
-          <folding />
-        </state>
+        <state line="41" column="22" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.17094018" vertical-offset="700" max-vertical-offset="2340" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="514" selection-end="514" vertical-scroll-proportion="-7.034483" vertical-offset="36" max-vertical-offset="780">
-          <folding />
+        <state line="1237" column="0" selection-start="45718" selection-end="45718" vertical-scroll-proportion="0.0" vertical-offset="21296" max-vertical-offset="67780">
+          <folding>
+            <element signature="e#19153#20304#0" expanded="false" />
+            <element signature="e#23676#28481#0" expanded="false" />
+            <element signature="e#51832#53390#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+        <state line="10" column="0" selection-start="162" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avalon-master/avalon.mobile.js">
+    <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1073" column="9" selection-start="39413" selection-end="39413" vertical-scroll-proportion="-4.154583" vertical-offset="18557" max-vertical-offset="65180">
+        <state line="1431" column="19" selection-start="52374" selection-end="52374" vertical-scroll-proportion="0.0" vertical-offset="23537" max-vertical-offset="68060">
           <folding>
-            <element signature="e#14376#18837#0" expanded="false" />
-            <element signature="e#19153#20304#0" expanded="false" />
-            <element signature="e#21277#22821#0" expanded="false" />
-            <element signature="e#23676#28481#0" expanded="false" />
-            <element signature="e#45338#45716#0" expanded="false" />
-            <element signature="e#47219#48458#0" expanded="false" />
+            <element signature="e#2412#4044#0" expanded="false" />
+            <element signature="e#4777#9123#0" expanded="false" />
+            <element signature="e#40961#42517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.6722689" vertical-offset="0" max-vertical-offset="780">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
