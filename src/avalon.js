@@ -670,7 +670,7 @@
                 buffer.push("\tPublic [" + name + "]")
             }
             buffer.push("\tPublic [" + 'hasOwnProperty' + "]")
-            //添加访问器属性 
+            //添加访问器属性
             for (name in accessingProperties) {
                 if (!(name in normalProperties)) { //防止重复定义
                     buffer.push(
@@ -1607,7 +1607,7 @@
 
 
     function scanTag(elem, vmodels, node) {
-        //扫描顺序  ms-skip(0) --> ms-important(1) --> ms-controller(2) --> ms-if(10) --> ms-repeat(100) 
+        //扫描顺序  ms-skip(0) --> ms-important(1) --> ms-controller(2) --> ms-if(10) --> ms-repeat(100)
         //--> ms-if-loop(110) --> ms-attr(970) ...--> ms-each(1400)-->ms-with(1500)--〉ms-duplex(2000)垫后
         var a = elem.getAttribute(prefix + "skip")
         var b = elem.getAttributeNode(prefix + "important")
@@ -2512,7 +2512,7 @@
             data.handlerName = "checked"
             parseExprProxy(data.value, vmodels, data)
         },
-        //根据VM的属性值或表达式的值切换类名，ms-class="xxx yyy zzz:flag" 
+        //根据VM的属性值或表达式的值切换类名，ms-class="xxx yyy zzz:flag"
         //http://www.cnblogs.com/rubylouvre/archive/2012/12/17/2818540.html
         "class": function(data, vmodels) {
             var oldStyle = data.param,
@@ -2527,7 +2527,7 @@
                 var colonIndex = noExpr.indexOf(":") //取得第一个冒号的位置
                 if (colonIndex === -1) { // 比如 ms-class="aaa bbb ccc" 的情况
                     var className = text
-                } else { // 比如 ms-class-1="ui-state-active:checked" 的情况 
+                } else { // 比如 ms-class-1="ui-state-active:checked" 的情况
                     className = text.slice(0, colonIndex)
                     rightExpr = text.slice(colonIndex + 1)
                     parseExpr(rightExpr, vmodels, data) //决定是添加还是删除
@@ -2953,7 +2953,7 @@
             var currHTML = element.innerHTML
             if (currHTML === innerHTML) {
                 clearInterval(id)
-                //先等到select里的option元素被扫描后，才根据model设置selected属性  
+                //先等到select里的option元素被扫描后，才根据model设置selected属性
                 registerSubscriber(data)
             } else {
                 innerHTML = currHTML
@@ -3369,7 +3369,7 @@
         },
         camelize: camelize,
         escape: function(html) {
-            //将字符串经过 html 转义得到适合在页面中显示的内容, 例如替换 < 为 &lt 
+            //将字符串经过 html 转义得到适合在页面中显示的内容, 例如替换 < 为 &lt
             return String(html)
                 .replace(/&(?!\w+;)/g, '&amp;')
                 .replace(/</g, '&lt;')
@@ -3397,7 +3397,7 @@
                     var k = Math.pow(10, prec)
                     return "" + Math.round(n * k) / k
                 }
-            // Fix for IE parseFloat(0.55).toFixed(0) = 0 
+            // Fix for IE parseFloat(0.55).toFixed(0) = 0
             s = (prec ? toFixedFix(n, prec) : "" + Math.round(n)).split('.')
             if (s[0].length > 3) {
                 s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep)

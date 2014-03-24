@@ -284,7 +284,6 @@
     }
 
     //只让节点集合，纯数组，arguments与拥有非负整数的length属性的纯JS对象通过
-
     function isArrayLike(obj) {
         if (obj && typeof obj === "object") {
             var n = obj.length,
@@ -511,6 +510,7 @@
                 model[name] = val
             }
         }
+
         accessingProperties[name] = accessor
     }
     //with绑定生成的代理对象储存池
@@ -1222,7 +1222,6 @@
     var stopScan = oneObject("area,base,basefont,br,col,command,embed,hr,img,input,link,meta,param,source,track,wbr,noscript,noscript,script,style,textarea".toUpperCase())
 
     //确保元素的内容被完全扫描渲染完毕才调用回调
-
     function checkScan(elem, callback) {
         var innerHTML = NaN,
                 id = setInterval(function() {

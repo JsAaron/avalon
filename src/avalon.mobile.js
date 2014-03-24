@@ -121,6 +121,7 @@
         }
         return target
     }
+
     var eventMap = avalon.eventMap = {}
 
     function resetNumber(a, n, end) { //用于模拟slice, splice的效果
@@ -147,6 +148,7 @@
         }
         return result
     }
+
     avalon.mix({
         rword: rword,
         subscribers: subscribers,
@@ -1239,8 +1241,8 @@
 
 
     function scanTag(elem, vmodels, node) {
-        //扫描顺序  ms-skip(0) --> ms-important(1) --> ms-controller(2) --> ms-if(10) --> ms-repeat(100) 
-        //--> ms-if-loop(110) --> ms-attr(970) ...--> ms-each(1400)-->ms-with(1500)--〉ms-duplex(2000)垫后        
+        //扫描顺序  ms-skip(0) --> ms-important(1) --> ms-controller(2) --> ms-if(10) --> ms-repeat(100)
+        //--> ms-if-loop(110) --> ms-attr(970) ...--> ms-each(1400)-->ms-with(1500)--〉ms-duplex(2000)垫后
         var a = elem.getAttribute(prefix + "skip")
         var b = elem.getAttributeNode(prefix + "important")
         var c = elem.getAttributeNode(prefix + "controller")
@@ -2037,7 +2039,7 @@
             data.handlerName = "attr" //handleName用于处理多种绑定共用同一种bindingExecutor的情况
             parseExprProxy(text, vmodels, data, (simple ? null : scanExpr(data.value)))
         },
-        //根据VM的属性值或表达式的值切换类名，ms-class="xxx yyy zzz:flag" 
+        //根据VM的属性值或表达式的值切换类名，ms-class="xxx yyy zzz:flag"
         //http://www.cnblogs.com/rubylouvre/archive/2012/12/17/2818540.html
         "class": function(data, vmodels) {
             var oldStyle = data.param,
@@ -2052,7 +2054,7 @@
                 var colonIndex = noExpr.indexOf(":") //取得第一个冒号的位置
                 if (colonIndex === -1) { // 比如 ms-class="aaa bbb ccc" 的情况
                     var className = text
-                } else { // 比如 ms-class-1="ui-state-active:checked" 的情况 
+                } else { // 比如 ms-class-1="ui-state-active:checked" 的情况
                     className = text.slice(0, colonIndex)
                     rightExpr = text.slice(colonIndex + 1)
                     parseExpr(rightExpr, vmodels, data) //决定是添加还是删除
@@ -2448,7 +2450,7 @@
             var currHTML = element.innerHTML
             if (currHTML === innerHTML) {
                 clearInterval(id)
-                //先等到select里的option元素被扫描后，才根据model设置selected属性  
+                //先等到select里的option元素被扫描后，才根据model设置selected属性
                 registerSubscriber(data)
             } else {
                 innerHTML = currHTML
@@ -2849,7 +2851,7 @@
         },
         camelize: camelize,
         escape: function(html) {
-            //将字符串经过 html 转义得到适合在页面中显示的内容, 例如替换 < 为 &lt 
+            //将字符串经过 html 转义得到适合在页面中显示的内容, 例如替换 < 为 &lt
             return String(html)
                 .replace(/&(?!\w+;)/g, "&amp;")
                 .replace(/</g, "&lt;")
@@ -2877,7 +2879,7 @@
                     var k = Math.pow(10, prec)
                     return "" + Math.round(n * k) / k
                 }
-            // Fix for IE parseFloat(0.55).toFixed(0) = 0 
+            // Fix for IE parseFloat(0.55).toFixed(0) = 0
             s = (prec ? toFixedFix(n, prec) : "" + Math.round(n)).split('.')
             if (s[0].length > 3) {
                 s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep)
