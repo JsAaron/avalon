@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c48ae644-7487-4bee-9cea-0c04393c2915" name="Default" comment="test&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demo.js" afterPath="$PROJECT_DIR$/src/demo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="avalon.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.931034" vertical-offset="65" max-vertical-offset="780">
+            <state line="26" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="-15.689655" vertical-offset="65" max-vertical-offset="780">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,7 +40,7 @@
       <file leaf-file-name="avalon.mobile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1417" column="49" selection-start="51822" selection-end="51823" vertical-scroll-proportion="0.49384406" vertical-offset="26459" max-vertical-offset="71000">
+            <state line="1397" column="38" selection-start="51146" selection-end="51153" vertical-scroll-proportion="0.4391245" vertical-offset="26099" max-vertical-offset="71000">
               <folding>
                 <element signature="e#2412#4044#0" expanded="false" />
                 <element signature="e#4123#4425#0" expanded="false" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="211" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+            <state line="5" column="6" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -77,8 +78,8 @@
         <option value="$PROJECT_DIR$/avalon-master/index_$skipArray.html" />
         <option value="$PROJECT_DIR$/avalon-master/index_each.html" />
         <option value="$PROJECT_DIR$/avalon-master/avalon.mobile.js" />
-        <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/avalon.mobile.js" />
+        <option value="$PROJECT_DIR$/src/demo.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
@@ -236,7 +237,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -594,14 +595,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="211" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="380">
+        <state line="5" column="6" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="892" selection-end="892" vertical-scroll-proportion="-12.931034" vertical-offset="65" max-vertical-offset="780">
+        <state line="26" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="-15.689655" vertical-offset="65" max-vertical-offset="780">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -610,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/avalon.mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1417" column="49" selection-start="51822" selection-end="51823" vertical-scroll-proportion="0.49384406" vertical-offset="26459" max-vertical-offset="71000">
+        <state line="1397" column="38" selection-start="51146" selection-end="51153" vertical-scroll-proportion="0.4391245" vertical-offset="26099" max-vertical-offset="71000">
           <folding>
             <element signature="e#2412#4044#0" expanded="false" />
             <element signature="e#4123#4425#0" expanded="false" />
