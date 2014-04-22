@@ -1,44 +1,49 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html class="p-index">
     <head>
         <meta charset="utf-8" />
-        <script type="text/javascript" src="avalon.mobile.js" ></script>
+        <title>推荐：弹层水平垂直居中解决方案之一</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <style>
+            html,body{_height:100%;margin:0;padding:0;}
+            .bg{text-align:center;}
+            .g-popup{position:fixed;_position:absolute;width:100%;height:98%;text-align:center;border:1px solid red;z-index:20;opacity: 0.5;}
 
-        <script type="text/javascript">
-            avalon.ready(function() {
-                var ControllerA = avalon.define('ControllerA', function(vm) {
-                    vm.array = [1, 2, 34, 5];
-                    vm.header = [
-//                        {date:5,weekday:true},
-//                        {date:"43",weekday:false},
-//                        {date:"dfasdfa",weekday:true}
-                    ]
-                    vm.test = function(flag) {
-                        return flag;
-                    }
-                    vm.isWeekendDefined = function(val) {
-                        return true;
-                    }
-                });
-
-                window.setTimeout(function() {
-                    ControllerA.header = [{"date": "2014-03-12", "weekday": 3}, {"date": "2014-03-13", "weekday": 4}, {"date": "2014-03-14", "weekday": 5}, {"date": "2014-03-15", "weekday": 6}, {"date": "2014-03-16", "weekday": 0}, {"date": "2014-03-17", "weekday": 1}, {"date": "2014-03-18", "weekday": 2}, {"date": "2014-03-19", "weekday": 3}, {"date": "2014-03-20", "weekday": 4}, {"date": "2014-03-21", "weekday": 5}];
-                }, 5000);
-                avalon.scan();
-            });
-        </script>
+            /* popup */
+            .g-popup-inner{pointer-events: auto;overflow:hidden;border-radius:5px;border:1px solid #aaa;box-shadow:0 0 10px rgba(0,0,0,.3);background:#fff;font-size:0;text-align:left;}
+            .g-popup-inner,.g-popup .after,.g-popup:after{display:inline-block;*display:inline;*zoom:1;font:14px/1.7 arial,simsun;vertical-align:middle;}
+            .g-popup .after,.g-popup:after{width:0;height:100%;}
+            .g-popup:after{content:"\0020";}
+            .g-popup .hd{padding:0 10px;border-bottom:1px solid #aaa;}
+            .g-popup .hd .title{margin:0;padding:5px 0;font-size:14px;}
+            .g-popup .bd{padding:0 10px 10px;}
+            .g-popup .bd p{margin:10px 0 0;}
+            .g-popup .ft{padding-bottom:5px;text-align:center;}
+        </style>
     </head>
+    <body>
+        <div class="m-demo g-popup">
+            <div class="g-popup-inner">
+                <div class="hd">
+                    <h2 class="title">简单的弹层</h2>
+                </div>
+                <div class="bd">
+                    <p>大段的未知文本啥的大段的未知文本啥的</p>
+                    <p>大段的未知文本啥的大段的未知文本啥的</p>
+                    <p>大段的未知文本啥的大段的未知文本啥的</p>
+                </div>
+                <div class="ft">
+                    <a href="?">确定</a>
+                </div>
+            </div>
+            <span class="after"><!-- 该死的IE6/7 --></span>
+        </div>
 
-    <body ms-controller="ControllerA">
-        <table>
-            <tr>
-                <th><input type="checkbox" class="ui-grid-select"  ms-checked="allCheckedProductIds" ms-change="fnCheckedAll"  /></th>
-                <th>房型/产品名称</th>
-                <th>价格类型</th>
-                <th ms-repeat-el="header"><span ms-class="weekend:isWeekendDefined(el.weekday)">ssss</span>
-                </th>
-                <th>111</th>
-            </tr>
-        </table>
+        <div class="bg">
+            <input type="sss" style="position: relative;top:-100px;">
+            <img src="page.png" alt="" />
+        </div>
     </body>
 </html>
